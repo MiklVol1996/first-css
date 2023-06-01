@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #E8E8E8 url(../lending_1/for_project/line.png) 50% 60px no-repeat;
+    
+}
+
+.wrapper {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 841px;
+    margin: 0 auto;
+    padding: 105px 0 137px 0;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.title {
+    opacity: 0.60;
+    color: #273D46;
+    /* margin: 0 382px 0 372px; */
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2.8px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-family: "adobeinvisfont";
+    font-size: 36px;
+    color: #273D46;
+    /* margin: 28px 0 77px 0; */
+    line-height: 50px;
+    width: 725px;
+    margin: 0 auto;
+}
+
+.img {
+   box-shadow: 0 15px 65px rgb(243, 243, 243);
+   background-color: aliceblue;
+   padding: 10px;
+   margin-bottom: 97px;
+}
+
+.text {
+    width: 736px;
+    
+    opacity: 0.80;
+    font-family: "adobeinvisfont";
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+    color: #273D46;
+    margin: 0 0 0 45px;
+}
+.text>p{
+    margin-bottom: 40px;
+}
+.text p :last-child{
+    margin-bottom: 0px;
+}
+
+.ul{
+    margin: 0 0 0 45px;
+}
+
+.ul li{
+    background: url(../lending_1/for_project/check.png) left no-repeat;
+  
+    font-family: "arialmt"; 
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 13px;
+    padding: 0 0 0 30px;
+}
+
+.ul li:nth-child(1){
+color: #273D46;
+}
+.ul li:nth-child(2){
+    color: #80B7B3;
+text-decoration: line-through;
+font-style: italic;
+}
+.ul li:nth-child(3){
+color: #273D46;
+font-weight: 700;
+}
+.ul li:nth-child(4){
+    color: #273D46; 
+    text-decoration:line-through;
+    margin-bottom: 59px;
+    
+}
+.ul li:nth-child(4) span{
+    opacity: 0.30;
+    
+}
+
+.bottom-text {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2.8px;
+    width: 199px;
+    height: 44px;
+    background-color: rgb(65, 199, 179);
+    color: white;
+    border-radius: 20px;
+    margin: 0 0 0 45px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgb(48, 40, 40);
+}
+.button:hover{
+    background-color: brown;
+}
+.button:active{
+    position: relative;
+    top: 3px;
+    box-shadow: 0px 0px 0px rgb(48, 40, 40);
+}
+
